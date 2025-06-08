@@ -1,0 +1,32 @@
+# Node modules (very heavy folder, recreate from package.json)
+node_modules/
+
+# Environment variables (sensitive data like DB passwords, API keys)
+.env
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config files
+.vscode/
+.idea/
+
+# Coverage reports from testing
+coverage/
+
+# Dist or build folders (if you use any bundler)
+dist/
+build/
+
+# Misc
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
